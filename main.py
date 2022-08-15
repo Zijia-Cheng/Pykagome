@@ -16,7 +16,7 @@ with MPRester("xfzRTieDSOyvnZgq") as m:
    #import data:
        
    results_hexagonal = m.query(criteria={'spacegroup.crystal_system': {"$in": ["trigonal", "hexagonal"]}},properties=['material_id','structure','elements'])
-   file = open("/Users/zijiacheng/Desktop/Princeton/python/kagome","w")
+   file = open("Your address","w")
 
 for i in range(0,len(results_hexagonal)):
     
